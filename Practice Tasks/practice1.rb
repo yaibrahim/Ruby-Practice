@@ -105,6 +105,21 @@ text.each_char { |char| freqs[char] += 1 }
 # print freqs
 ('a'..'z').each { |x| puts "#{x} : #{freqs[x]}" }
 
+# Class & Object
 
+class Person
+  @fname
+  @lname
+  def initialize(fn , ln)
+    @fname = fn
+    @lname = ln
+    puts "Hello from initializer "
+  end
+  def get_name
+    puts "#{@fname} #{@lname}"
+  end
+end
 
+p1 = Person.new("ibrahim","azeem")
+p1.get_name
 
