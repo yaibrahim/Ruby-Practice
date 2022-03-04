@@ -64,4 +64,19 @@ arr1.pop
 puts arr1
 arr1.insert(0,0)
 puts arr1
+arr1.delete_at(2)
+puts arr1
 
+# reverse Array
+revArray = arr1.reverse
+print revArray
+
+# reverse Array with '!'
+print arr1
+arr1.reverse!
+print(arr1)
+
+#Hashes
+puts ' '
+ages = { "David" => 28, "Amy"=> 19, "Rob" => 42 }
+puts ages["Amy"]
