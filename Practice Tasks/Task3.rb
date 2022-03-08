@@ -2,8 +2,6 @@ n = gets.to_i
 alpha_length = 10
 num_length = 10
 symbols_length = 14
-# Hardcoded value for password length
-# because gets not working on ruby extension ,i don't know why
 
 numeric = "0123456789"
 alphabets_small = "abcdefghijklmnopqrstuvwxyz"
