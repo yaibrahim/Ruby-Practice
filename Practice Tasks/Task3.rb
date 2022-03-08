@@ -1,4 +1,4 @@
-n = 10
+n = gets.to_i
 alpha_length = 10
 num_length = 10
 symbols_length = 14
